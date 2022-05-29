@@ -2,6 +2,11 @@
 
 > ⚠️ WARNING ⚠️ APIs used are for Windows OS only!
 
+## About
+
+Add a dark overlay over your screen to dim it.<br>
+Useful when you can't control your screen brightness or when you want to dim it even further.
+
 ## Made with
 
 - Vite
@@ -9,7 +14,13 @@
 - Tauri JS
 - UnoCSS
 - Typescript
-- Love <3
+- Love
+
+## Why not Electron?
+
+Once compiled, the app weights only **~5MB**
+<br>
+The same app, made with Electron, is **~160MB**
 
 ## Usage
 

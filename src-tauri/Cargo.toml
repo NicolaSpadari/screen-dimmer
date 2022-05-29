@@ -1,5 +1,5 @@
 [package]
-name = "Screen dimmer"
+name = "screen_dimmer"
 version = "1.0.0"
 description = "A screen dimmer application"
 authors = ["NicolaSpadari"]
