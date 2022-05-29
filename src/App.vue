@@ -5,7 +5,7 @@
 <script lang="ts" setup>
     const res = ref(0);
 
-    let unlisten: any;
+    let unlisten: () => void;
 
     onMounted(async () => {
         setTimeout(() => {

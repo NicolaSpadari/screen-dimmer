@@ -1,6 +1,6 @@
 {
     "package": {
-        "productName": "vitauri",
+        "productName": "Screen dimmer",
         "version": "1.0.0"
     },
     "build": {
@@ -17,7 +17,7 @@
         "bundle": {
             "active": true,
             "targets": "all",
-            "identifier": "com.spada.vitauri",
+            "identifier": "com.spada.screendimmer",
             "icon": [
                 "icons/32x32.png",
                 "icons/128x128.png",
@@ -45,7 +45,7 @@
         "allowlist": {},
         "windows": [
             {
-                "title": "ViTauri",
+                "title": "Screen Dimmer",
                 "width": 3440,
                 "height": 1440,
                 "resizable": false,

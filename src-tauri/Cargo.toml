@@ -1,10 +1,10 @@
 [package]
-name = "vitauri"
+name = "Screen dimmer"
 version = "1.0.0"
-description = "Vite + Tauri starter template"
+description = "A screen dimmer application"
 authors = ["NicolaSpadari"]
 license = "MIT"
-repository = "https://github.com/NicolaSpadari/vitauri"
+repository = "https://github.com/NicolaSpadari/screen-dimmer"
 # default-run = "app"
 edition = "2021"
 rust-version = "1.57"
