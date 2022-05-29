@@ -1,0 +1,63 @@
+{
+    "package": {
+        "productName": "vitauri",
+        "version": "1.0.0"
+    },
+    "build": {
+        "distDir": "../dist",
+        "devPath": "http://localhost:8080",
+        "beforeDevCommand": "",
+        "beforeBuildCommand": ""
+    },
+    "tauri": {
+        "systemTray": {
+            "iconPath": "./icons/icon.png",
+            "iconAsTemplate": true
+        },
+        "bundle": {
+            "active": true,
+            "targets": "all",
+            "identifier": "com.spada.vitauri",
+            "icon": [
+                "icons/32x32.png",
+                "icons/128x128.png",
+                "icons/128x128@2x.png",
+                "icons/icon.icns",
+                "icons/icon.ico"
+            ],
+            "resources": [],
+            "externalBin": [],
+            "copyright": "",
+            "category": "DeveloperTool",
+            "shortDescription": "",
+            "longDescription": "",
+            "deb": {},
+            "macOS": {},
+            "windows": {
+                "certificateThumbprint": null,
+                "digestAlgorithm": "sha256",
+                "timestampUrl": ""
+            }
+        },
+        "updater": {
+            "active": false
+        },
+        "allowlist": {},
+        "windows": [
+            {
+                "title": "ViTauri",
+                "width": 3440,
+                "height": 1440,
+                "resizable": false,
+                "fullscreen": false,
+                "transparent": true,
+                "alwaysOnTop": true,
+                "decorations": false,
+                "skipTaskbar": true
+            }
+        ],
+        "security": {
+            "csp": null
+        }
+    }
+}
